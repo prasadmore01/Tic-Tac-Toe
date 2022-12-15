@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+        <h3>Start the Game</h3>
+        <h3 id="first">First Player is O </h3>
+        <h3 id="second">Second Player is X </h3>
+        <img src="./img/board_boy.jpg" alt="green board">
+    </header>
+
+    <main id="main1">
+        <div class="main-box">
+            <div class="box" id="box-1" onclick="fill(this)"></div>
+            <div class="box" id="box-2" onclick="fill(this)"></div>
+            <div class="box" id="box-3" onclick="fill(this)"></div>
+            
+            <div class="box" id="box-4" onclick="fill(this)"></div>
+            <div class="box" id="box-5" onclick="fill(this)"></div>
+            <div class="box" id="box-6" onclick="fill(this)"></div>
+            
+            <div class="box" id="box-7" onclick="fill(this)"></div>
+            <div class="box" id="box-8" onclick="fill(this)"></div>
+            <div class="box" id="box-9" onclick="fill(this)"></div>
+            <br><Br>
+
+        </div>
+        <button onclick="reload()"> RESET </button>
+    </main>

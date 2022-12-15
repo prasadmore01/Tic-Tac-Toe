@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+header{
+    width: 350px;
+    height: 230px;
+    margin-top :170px;
+}
+
+header img{
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: -300px;
+    right: 70px;
+    z-index: -1;
+    border-bottom: 3px solid grey;
+}
+
+header h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    color:#f2b006;
+    position: relative;
+    right: 100px;
+    bottom: 40px;
+}
+
+header h3{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 20px;
+    color: white;
+    position: relative;
+    top: -50px;
+    right: 50px;
+}
+
+main{
+    width: 550px;
+    height: 550px;
+    border: 2px solid black;
+    border-style:dashed;
+     margin-top:30px;
+    margin-bottom: 70px;
+    background-color: aqua;
+}
+
+.main-box{
+    width: 450px;
+    height: 370px;
+   
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    margin-top: 50px;
+
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    font-size: 100px;
+    text-align: center;
+}
+
+#box-1,#box-2,#box-3{
+    border-top: none;
+}
+
+#box-1,#box-4,#box-7{
+    border-left: none;
+
+}
+
+#box-3,#box-6,#box-9{
+    border-right: none;
+}
+
+#box-7,#box-8,#box-9{
+    border-bottom: none;
+}
+
+main button{
+    padding: 13px;
+    background-color: aqua;
+    color: orangered;
+    font-size: 17px;
+    font-weight: bolder;
+    margin: 0 auto;
+    border: none;
+    border-radius: 20px;
+    margin-left: 240px;
+    cursor: pointer;
+    transition-duration: 1s;
+    margin-top: 70px;
+    border: solid 2px black;
+
+}
+
+main button:hover{
+    transform: rotate(360deg);
+}
+
